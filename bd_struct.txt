@@ -1,0 +1,34 @@
+USER
+-id
+-name
+-email
+-state
+-passwordHash
+-token
+
+STATES
+-id
+-name
+
+CATEGORIES
+-id
+-name
+-slug
+
+ADS
+-id
+-id_USER
+-state
+-category
+-images [{ url, default:boolean}]
+-createdAt
+-title
+-price
+-priceNegotiable: boolean
+-description
+-views
+-status
+
+
+validators = validar o usuário antes de mandar para o controller
+trocar as resposta dos status das requisições
