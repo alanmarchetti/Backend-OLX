@@ -12,7 +12,7 @@ Um mini backend similar ao modelo da 'olx', onde um usuário se cadastrará e ap
 ### Tecnologias utilizadas no projeto
 - Javascript
 - Node.js
-- MongoDB (mongoose)
+- MongoDB 
 - Express
 - Validators
 - Cors
